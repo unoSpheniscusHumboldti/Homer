@@ -1,0 +1,160 @@
+\documentclass[oneside,final,12pt]{extreport}
+\usepackage{vmargin}
+\usepackage{setspace}
+%\usepackage{tgbonum}
+\usepackage[english]{babel}
+\usepackage{blindtext}
+\usepackage{charter}
+\usepackage{multicol}
+\setpapersize{A4}
+\pagestyle{empty}
+\setmarginsrb{1cm}{1cm}{1.5cm}{1cm}{0pt}{0mm}{0pt}{13mm}
+\setlength\multicolsep{3pt}
+
+\newenvironment{compactlist}{
+	\begin{list}{{$\bullet$}}{
+		\setlength\leftmargin{0.4cm}
+		\setlength\partopsep{0pt}
+		\setlength\parskip{0pt}
+		\setlength\parsep{0pt}
+		\setlength\topsep{0pt}
+		\setlength\itemsep{0pt}
+	}
+}{
+	\end{list}
+}
+
+\sloppy
+\setlength\parindent{0pt}
+%\setstretch{0.9}
+\usepackage{hyperref}
+\hypersetup{
+	colorlinks=true,
+	linkcolor=black,
+	urlcolor=black,
+}
+\begin{document}
+\setstretch{1.1}
+%\rmfamily
+\bfseries
+John Donne\\
+\rule{\textwidth}{0.4pt}
+Contact Information \\
+\noindent
+\mdseries
+%\bfseries
+Email address: \
+%\mdseries
+123@mail.com \\
+%\bfseries
+Phone number:
+%\mdseries
+000-000-0001 \\
+%\bfseries
+Github: 
+%\mdseries
+\href{https://github.com/user}{@user} \\
+%\bfseries
+Telegram:
+%\mdseries
+@user \\
+\rule{\textwidth}{0.4pt}
+
+\bfseries
+Career Objective \\
+\mdseries
+Engineer\\
+\rule{\textwidth}{0.4pt}
+
+\bfseries
+Location \\
+\mdseries
+Kallipolis \\
+\rule{\textwidth}{0.4pt}
+
+\bfseries
+Technical Skills
+%\setlength{\columnsep}{0pt}
+%\vspace{-\baselineskip}
+\mdseries
+\begin{multicols}{2}
+Programming Languages:
+	\begin{compactlist}
+		\item C/C++
+		\item Assembly language
+	\end{compactlist}
+		Scripting Languages:
+	\begin{compactlist}
+		\item Bash
+	\end{compactlist}
+\end{multicols}
+
+\begin{multicols}{2}
+Operating Systems:
+	\begin{compactlist}
+		\item Linux (Slackware, Devuan GNU)
+		\item *BSD (FreeBSD)
+	\end{compactlist}
+Build Automation Tools:
+	\begin{compactlist}
+		\item GNU Make
+	\end{compactlist}
+\end{multicols}
+
+\begin{multicols}{2}
+Version Control Systems:
+	\begin{compactlist}
+		\item Git
+	\end{compactlist}
+	Debugger:
+	\begin{compactlist}
+		 \item GNU Debugger (GDB)
+	\end{compactlist}
+\end{multicols}
+
+Another tools:
+\begin{multicols}{2}
+	\begin{compactlist}
+		\item Linux CLI
+		\item UML/PlantUML
+		\item LaTeX
+		\item SSH/PuTTY
+		\item valgrind 
+		\item strace
+	\end{compactlist}
+\end{multicols}
+\rule{\textwidth}{0.4pt}
+
+\bfseries
+Education and Courses
+\mdseries
+\begin{compactlist}
+	\item School of Science
+	\item School of Science
+\end{compactlist}
+\rule{\textwidth}{0.4pt}
+
+\bfseries
+Foreign Language Skills
+\mdseries
+\begin{compactlist}
+	\item English (intermediate)
+\end{compactlist}
+\rule{\textwidth}{0.4pt}
+
+\bfseries
+Project Section
+\mdseries
+\begin{compactlist}
+	\item \href{https://github.com/@user/another_game_project}{Another Game Project:}
+\end{compactlist}
+Description of Another Game Project
+
+\begin{compactlist}
+	\item \href{https://github.com/@user/another_tool_project}{Another Tool Project:}
+\end{compactlist}
+Description of Another Tool Project \\
+\rule{\textwidth}{0.4pt}
+
+
+\end{document}
