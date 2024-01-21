@@ -1,0 +1,89 @@
+\documentclass[oneside,final,12pt]{extreport}
+\usepackage{vmargin}
+\usepackage{setspace}
+%\usepackage{tgbonum}
+\usepackage[english]{babel}
+\usepackage{blindtext}
+\usepackage{charter}
+\usepackage{multicol}
+\usepackage{parskip}
+
+\setpapersize{A4}
+\pagestyle{empty}
+\setmarginsrb{1cm}{1cm}{1.5cm}{1cm}{0pt}{0mm}{0pt}{13mm}
+\setlength\multicolsep{3pt}
+
+\newenvironment{compactlist}{
+	\begin{list}{{$\bullet$}}{
+		\setlength\leftmargin{0.4cm}
+		\setlength\partopsep{0pt}
+		\setlength\parskip{0pt}
+		\setlength\parsep{0pt}
+		\setlength\topsep{0pt}
+		\setlength\itemsep{0pt}
+	}
+}{
+	\end{list}
+}
+
+\newenvironment{innerlist}{
+	\begin{list}{--}{
+		\setlength\leftmargin{0.8cm}
+		\setlength\partopsep{0pt}
+		\setlength\parskip{0pt}
+		\setlength\parsep{0pt}
+		\setlength\topsep{0pt}
+		\setlength\itemsep{0pt}
+	}
+}{
+	\end{list}
+}
+
+\sloppy
+\setlength\parindent{0pt}
+%\setstretch{0.9}
+\usepackage{hyperref}
+\hypersetup{
+	colorlinks=true,
+	linkcolor=black,
+	urlcolor=black,
+}
+\begin{document}
+\setstretch{1.1}
+%\rmfamily
+\bfseries
+Surmane Name \\
+\rule{\textwidth}{0.4pt}
+Contact Information \\
+\noindent
+\mdseries
+%\bfseries
+Email address: 
+%\mdseries
+surmane.nameATmaildomain.com \\
+%\bfseries
+Phone number: 
+%\mdseries
++0 000 0000 \\
+%\bfseries
+Github:
+%\mdseries
+\href{https://github.com/user}{@user} \\
+%\bfseries
+LinkedIn:
+%\mdseries
+\href{https://www.linkedin.com/in/username}{@user} \\
+\rule{\textwidth}{0.4pt}
+
+\bfseries
+Career Objective \\
+\mdseries
+Title \\
+\rule{\textwidth}{0.4pt}
+
+\bfseries
+Summary \\
+\mdseries
+
+
+\end{document}
