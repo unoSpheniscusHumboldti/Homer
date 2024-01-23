@@ -7,4 +7,4 @@ To generate the pdf file you may use command:<br>
 <code>pdflatex resume_example.tex</code>
 
 ![example
-](CV_general.png)
+](CV_general.png, CV_general_1.png)
