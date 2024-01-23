@@ -6,5 +6,5 @@ Please install the package, smth like:
 To generate the pdf file you may use command:<br>
 <code>pdflatex resume_example.tex</code>
 
-[example](CV_general.png)
-[example](CV_general_1.png)
+![example](CV_general.png)
+![example](CV_general_1.png)
