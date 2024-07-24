@@ -1,4 +1,4 @@
-Please install the package, smth like:
+Install the package, smth like:
 <br>
 <code>apt-get install texlive-latex-extra</code>
 <br>
