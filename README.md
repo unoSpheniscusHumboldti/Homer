@@ -1,10 +1,13 @@
-Install the package, smth like:
+to work with LaTeX files in Debian-based Linux distributions next steps can be useful:
+
+to install LaTeX packages:
 <br>
 <code>apt-get install texlive-latex-extra</code>
 <br>
 <br>
-To generate the pdf file you may use command:<br>
+to generate the *.pdf file from the *.tex file:
 <code>pdflatex CV_general.tex</code>
+<br>
 
 Current template can be used for tech \& non-tech Resumes. 
 Block 'Education \& Certification' can be moved under 'Professional Experience'. 
