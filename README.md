@@ -1,21 +1,23 @@
-the following info can be useful for working with LaTeX files on Ubuntu:
+### the following info can be useful for working with LaTeX files on Ubuntu:
 
-to install LaTeX packages:
-<br>
+#### to install LaTeX packages run the following command:
 <code>apt-get install texlive-latex-extra</code>
-<br>
 
-to generate the *.pdf file from the *.tex file:
-<br>
+
+#### to generate the \*.pdf file from the \*.tex file, use:
 <code>pdflatex CV_general.tex</code>
-<br>
 
-<p>Current template can be used for tech & non-tech Resumes.</p>
-<p>Block 'Education & Certification' can be moved under 'Professional Experience'.</p>
-<p>Block 'Professional Experience' can be renamed to describe 'pet-projects'.</p>
+### template information:
 
-an example of the current LaTeX file can be find below:
-<br>screenshot_01
-![example](CV_general_00.png)<br>
-<br>screenshot_02
-![example](CV_general_01.png)<br>
+<p>The template can be used for tech & non-tech resumes.</p>
+<p>The 'Education & Certification' section can be moved under the 'Professional Experience' section.</p>
+<p>The 'Professional Experience' can be renamed to describe 'pet-projects'.</p>
+
+### example of the current CV_general.pdf result:
+
+There are two screenshots that demonstrate the apperance of the data from LaTeX file:
+
+#### screenshot_00
+![screenshot_00](CV_general_00.png)
+#### screenshot_01
+![screenshot_01](CV_general_01.png)
