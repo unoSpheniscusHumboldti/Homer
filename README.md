@@ -1,4 +1,4 @@
-to work with LaTeX files in Debian-based Linux distributions next steps can be useful:
+The following info can be useful for working with LaTeX files on Debian GNU/Linux:
 
 to install LaTeX packages:
 <br>
