@@ -17,7 +17,7 @@
 
 There are two screenshots that demonstrate the apperance of the data from LaTeX file:
 
-#### screenshot_00
+##### screenshot_00
 ![screenshot_00](CV_general_00.png)
-#### screenshot_01
+##### screenshot_01
 ![screenshot_01](CV_general_01.png)
