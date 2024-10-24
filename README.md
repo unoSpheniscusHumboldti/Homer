@@ -16,5 +16,5 @@
 ### an example of how the data from LaTeX file will be presented at \*.pdf file:
 
 This is how the data from LaTeX file can be presented at \*.pdf file: 
-<img src="/Homer/CV_general.pdf">
+<img src="CV_general.pdf">
 
