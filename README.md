@@ -1,4 +1,4 @@
-## the following info can be useful for working with LaTeX files on Ubuntu:
+## the following info can be useful for working with LaTeX files on Ubuntu (20.04.6 LTS):
 
 ### to install LaTeX packages run the following command:
 <code>apt-get install texlive-latex-extra</code>
