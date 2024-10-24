@@ -13,11 +13,8 @@
 * The 'Education & Certification' section can be moved under the 'Professional Experience' section.
 * The 'Professional Experience' can be renamed to describe 'pet-projects'.
 
-### example of the current CV_general.pdf result:
+### an example of how the data from LaTeX file will be presented at \*.pdf file:
 
-There are two screenshots that demonstrate the apperance of the data from LaTeX file:
+This is how the data from LaTeX file can be presented at \*.pdf file: 
+<img src="/Homer/CV_general.pdf">
 
-##### screenshot_00
-![screenshot_00](CV_general_00.png)
-##### screenshot_01
-![screenshot_01](CV_general_01.png)
