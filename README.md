@@ -15,6 +15,9 @@
 
 ### an example of how the data from LaTeX file will be presented at \*.pdf file:
 
-This is how the data from LaTeX file can be presented at \*.pdf file: 
-<img src="CV_general.pdf">
+This is a screenshot that demonstrate the apperance of the template file and how the data from LaTeX file can be presented at \*.pdf file: 
+<img src="/./CV_general_00.png">
 
+%#### screenshot_00
+%* screenshot_00
+%![screenshot_00](CV_general_00.png)
